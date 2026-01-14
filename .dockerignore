@@ -1,0 +1,23 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# git
+.git
+
+# local env
+.env
+
+# sqlite / libsql local storage
+trading.db
+trading.db-shm
+trading.db-wal
+
+# docs / misc
+curl_examples.md
+TRADING_MODULE_DOCUMENTATION.md
+TRADING_MODULE_README_EN.md

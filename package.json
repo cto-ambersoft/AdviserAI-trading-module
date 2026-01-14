@@ -1,0 +1,40 @@
+{
+  "name": "express-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "An Express.js + TypeScript boilerplate",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastra-ai/express-ts-boilerplate.git"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mastra-ai/express-ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mastra-ai/express-ts-boilerplate#readme",
+  "dependencies": {
+    "@binance/derivatives-trading-usds-futures": "^21.0.0",
+    "@libsql/client": "^0.17.0",
+    "@mastra/core": "^1.0.0-beta.21",
+    "@mastra/express": "^0.1.0-beta.16",
+    "@mastra/libsql": "^1.0.0-beta.11",
+    "@mastra/loggers": "^1.0.0-beta.4",
+    "@mastra/memory": "^1.0.0-beta.12",
+    "@mastra/observability": "^1.0.0-beta.10",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mastra": "^1.0.0-beta.14",
+    "node-cron": "^4.2.1",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.2",
+    "@types/node-cron": "^3.0.11",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
